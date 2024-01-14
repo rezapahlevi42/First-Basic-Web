@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:wght@800&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylescoba.css" />
+    <title>Studi Kasus JS</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        
+        
+          <img src="Image/Lombok.png" width="400" class="img"/>
+
+        
+        <h1>BOOKING FORM</h1>
+        
+        <form class="form-container">
+          <div class="io-container">
+
+            
+        
+
+
+            <div class="input">
+
+
+              <div class="form-name">
+                <p>Name</p>
+                <input type="text" id="name" name="name" />
+              </div>
+
+              <div class="form-destiny">
+                <p>Destination</p>
+                <select name="tujuan" id="tujuan">
+                  <option value="Lombok">Lombok</option>
+                  <option value="Bangkok">Bangkok</option>
+                  <option value="Borobudur">Borobudur</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Palembang">Palembang</option>
+                  <option value="Bali">Bali</option>
+                </select>
+              </div>
+              
+              <div class="form-ticket">
+                <p>Number Of Tickets</p>
+                <input type="text" id="ticket" name="ticket" />
+              </div>
+
+              <div class="form-member">
+                <p>Member</p>
+                <select name="member" id="member">
+                  <option value="Basic Member">Basic Member</option>
+                  <option value="Premium">Premium</option>
+                </select>
+              </div>
+            </div>
+
+
+            <div class="output">
+
+              <div class="output-price">
+                <p>Tickets Price</p>
+                <input type="text" id="ticket-price" name="ticket-price" disabled />
+              </div>
+
+              <div class="output-subtotal">
+                <p>Sub Total</p>
+                <input type="text" id="subtotal" name="subtotal" disabled />
+              </div>
+
+              <div class="output-discount">
+                <p>Discount</p>
+                <input type="text" id="discount" name="discount" disabled />
+              </div>
+
+              <div class="output-total">
+                <p>Total</p>
+                <input type="text" id="total" name="total" disabled />
+              </div>
+
+            </div>
+          
+
+
+          </div>
+
+
+          <div class="button-container">
+            <button type="submit">SUBMIT</button>
+<button type="reset">RESET</button>
+          </div>
+
+          
+
+          
+        </form>
+      </div>
+    </div>
+    <script src="scriptcoba.js"></script>
+  </body>
+</html>

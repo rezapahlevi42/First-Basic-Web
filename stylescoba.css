@@ -1,0 +1,187 @@
+.wrapper{
+    background-color: #f1f1f1;
+    border: 5px solid #000000;
+    padding: 0px;
+    height: 565px;
+    width: 950px;
+    margin: auto;
+    align-self: center;
+    
+}
+  
+
+.io-container{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container img {
+float: left;
+}
+
+.container img {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+.fade-out {
+    opacity: 0;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+
+.wrapper h1{
+    color: #2b2626;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+
+.input {
+    /* background-color: #7ebaeb; */
+    float: left;
+    margin-left: 35px;
+    padding: 10px;
+    line-height: 1.4;
+    margin-top: 0px;
+    width : fit-content;
+    height: fit-content;
+}
+
+.form-name{ 
+    line-height: 0.1;
+}
+
+.form-name input{ 
+    height: 30px;
+    width: 220px;
+    font-size: large;
+}
+
+.form-destiny{
+    margin-top: 40px;
+    line-height: 0.1;
+}
+
+.form-destiny select{
+    height: 35px;
+    width: 225px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.form-ticket{
+    margin-top: 40px;
+    line-height: 0.1;
+}
+
+.form-ticket input{
+    height: 30px;
+    width: 220px;
+    font-size: large;
+}
+
+.form-member{
+    margin-top: 40px;
+    line-height: 0.1;
+}
+
+.form-member select{
+    height: 35px;
+    width: 225px;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+
+
+.output-price{ 
+    line-height: 0.1;
+}
+
+.output-price input{ 
+    height: 30px;
+    width: 220px;
+    font-size: large;
+    background-color: #ffffff;
+}
+
+.output-subtotal{
+    margin-top: 40px;
+    line-height: 0.1;
+}
+
+.output-subtotal input{
+    height: 30px;
+    width: 220px;
+    font-size: large;
+    background-color: #ffffff;
+}
+
+.output-discount{
+    margin-top: 40px;
+    line-height: 0.1;
+}
+
+.output-discount input{
+    height: 30px;
+    width: 220px;
+    font-size: large;
+    background-color: #ffffff;
+}
+
+.output-total{
+    margin-top: 40px;
+    line-height: 0.1;
+}
+
+.output-total input{
+    height: 30px;
+    width: 220px;
+    font-size: large;
+   background-color: #ffffff;
+}
+
+.output {
+    /* background-color: #7ebaeb; */
+    float: left;
+    padding: 10px;
+    line-height: 1.4;
+    margin-top: 0px;
+    width : fit-content;
+    height: fit-content;
+    
+}
+
+.button-container {
+    /* background-color: #7ebaeb; */
+    width : fit-content;
+    height: fit-content;
+    float: left;
+    margin-top: 40px;
+    margin-left: 42px;
+    
+}
+
+.button-container button {
+    padding: 15px;
+    font-size: 16px;
+    align-self: center;
+  border: none;
+  border-radius: 8px; /* Nilai radius yang menghasilkan tepi tumpul */
+  background-color: #151616; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #464946; /* Warna latar belakang saat tombol dihover */
+  }
